@@ -22,15 +22,12 @@ import './styles/theme.css';
 //pode utilizar propriedades dessa maneira pra fazer alguma coisa dentro do component
 
 export function App() {
-  console.log('Oi');
   return (
     <>
       <Heading attr={1234} attr2='String'>
-        Olá mundo!0
+        Olá mundo!
       </Heading>
 
-      <Heading>Olá mundo!1</Heading>
-      <Heading>Olá mundo!2</Heading>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
