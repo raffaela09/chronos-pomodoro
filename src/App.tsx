@@ -18,11 +18,19 @@ import './styles/theme.css';
 //poderia importar, por ser um elemento do react, <Fragment>
 //o css pode ser aplicado como quiser
 //dentro de theme fica as variaveis de css
+//os elementos podem possuir atributos (attr) pode colocar as {} para jsx ou ""
+//pode utilizar propriedades dessa maneira pra fazer alguma coisa dentro do component
+
 export function App() {
   console.log('Oi');
   return (
     <>
-      <Heading />
+      <Heading attr={1234} attr2='String'>
+        Olá mundo!0
+      </Heading>
+
+      <Heading>Olá mundo!1</Heading>
+      <Heading>Olá mundo!2</Heading>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
