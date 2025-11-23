@@ -1,3 +1,4 @@
+import { TimerIcon } from 'lucide-react';
 import { Heading } from './components/Heading';
 
 import './styles/global.css';
@@ -20,12 +21,16 @@ import './styles/theme.css';
 //dentro de theme fica as variaveis de css
 //os elementos podem possuir atributos (attr) pode colocar as {} para jsx ou ""
 //pode utilizar propriedades dessa maneira pra fazer alguma coisa dentro do component
+//pode utilizar o pacote de lucide-react para utilizar os icones do react
 
 export function App() {
   return (
     <>
-      <Heading attr={1234} attr2='String'>
+      <Heading>
         Olá mundo!
+        <button>
+          <TimerIcon />
+        </button>
       </Heading>
 
       <p>
