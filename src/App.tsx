@@ -1,3 +1,6 @@
+import './styles/global.css';
+import './styles/theme.css';
+
 //maioria dos casos se utiliza jsx
 //precisa dele sempre que se cria um component
 //funcao que utiliza o nome em pascal case - PascalCase
@@ -11,6 +14,8 @@
 //nesse caso, ao inspecionar, nao fica mais aparecendo uma div la
 //pode ser util para nao quebrar layout
 //poderia importar, por ser um elemento do react, <Fragment>
+//o css pode ser aplicado como quiser
+//dentro de theme fica as variaveis de css
 export function App() {
   console.log('Oi');
   return (
