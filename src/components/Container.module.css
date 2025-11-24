@@ -1,0 +1,12 @@
+.container-fluid {
+  max-width: auto;
+}
+
+.container {
+  max-width: 98rem;
+  margin: 0 auto; /*margin 0 auto alinha no centro*/
+}
+
+.content {
+  margin: 3.2rem;
+}
