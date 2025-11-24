@@ -1,5 +1,7 @@
 import { Container } from './components/Container';
 import { Heading } from './components/Heading';
+import { Logo } from './components/Logo';
+
 import './styles/global.css';
 import './styles/theme.css';
 
@@ -21,13 +23,15 @@ import './styles/theme.css';
 //os elementos podem possuir atributos (attr) pode colocar as {} para jsx ou ""
 //pode utilizar propriedades dessa maneira pra fazer alguma coisa dentro do component
 //pode utilizar o pacote de lucide-react para utilizar os icones do react
+// -> lembrar de organizar os imports
 
 export function App() {
   return (
     <>
       <Container>
-        <Heading>Logo</Heading>
+        <Logo />
       </Container>
+
       <Container>
         <Heading>Menu</Heading>
       </Container>
